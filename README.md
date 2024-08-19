@@ -101,6 +101,7 @@ divergence in TVs, computers, telephones, set-top boxes, and other embedded syst
 many different devices and applications such as desktop computing, scientific studies, enterprise applications, 
 web servers, embedded systems, and mobile devices and is widely used in computer science education.
 
+![image](https://github.com/user-attachments/assets/ff228d87-0bbe-4466-9c09-683172c3200a)
 
 IV.Ada Lovelace- She is an english mathematician and a writer and she was the very first computer programmer 
 according to history, she was the reason as to why computer coding thrive and has open doors and opportunities 
@@ -109,12 +110,14 @@ to function with mathematical languages, but Lovelace was able to discover and i
 can be programmed other than just using mathematical languages, and so that is how she revolutionized the coding 
 language itself.
 
+![image](https://github.com/user-attachments/assets/fdb9e0ab-3841-470e-a736-f7ce43719793)
 
 V.Bjarne Stroustrup- He was the man who develop making the c++ program language. He created this language for users to 
 more accessibility with creating very advanced coding to focus on more than the hardware required. With the use of the 
 c programming language he tried to enhance the language itself and it resulted into the creation of c++ we know today. 
 He created the c++ programming when he was doing work for his Ph.D. thesis in Bell Labs back in the year 1979.
 
+![image](https://github.com/user-attachments/assets/a050df42-449c-4830-acee-9d1a1ae2017a)
 
 *Hardware developers*
 
@@ -126,6 +129,7 @@ Analytical engine, it had very similar functions to the computer we know today. 
 that time and sadly his invention showed only results he did not want. Although Babbage's Analytical engine did not 
 came true, George Scheutz was able to adapt his invention and make come to reality.
 
+![image](https://github.com/user-attachments/assets/fa356a30-55ac-4bea-900b-0712d95580e0)
 
 II.Georg Scheutz- He was the man that was able to make a the first workable computer, something that Charles Babbage 
 tried to create. He was the man that also invented the first printing calculator. It is a machine that is able to
@@ -205,6 +209,12 @@ Ravensrcraft E. (2024, Jul 22) The Best Keyboards for Work and Play. wired.com. 
 
 Chacos B. & Chiappeta M. (2021, Apr 7). How to choose the best PC power. supply.pcworld.com.https://www.pcworld.com/article/456490/how-to-pick-the-best-pc-power-supply.html
 
-Anonymous. (2024, Aug 14). Linus Torvalds. britannica.com. https://www.britannica.com/biography/Linus-Torvalds
+Anonymous. (2024, Aug 14). Linus Torvalds | Biography, Linux, & Facts | Britannica. britannica.com. https://www.britannica.com/biography/Linus-Torvalds
 
 Anonymous. (2012, Sep 6). Honoring the life of Dennis Ritchie, UNIX co-creator and father of C. digitalnewsasia. https://www.digitalnewsasia.com/digital-economy/honoring-the-life-of-dennis-ritchie-unix-co-creator-and-father-of-c
+
+Anonymous. (n. d.). James Gosling. nighthacks.com.https://nighthacks.com/jag/bio/index.html
+
+Anonymous (2024, Jul 12) Ada Lovelace | Biography, Computer, & Facts | Britannica. britannica.com. https://www.britannica.com/biography/Ada-Lovelace
+
+Anonymous (n.d.).Bjarne Stroustrup's Homepage. stroustrup.com.https://www.stroustrup.com/
