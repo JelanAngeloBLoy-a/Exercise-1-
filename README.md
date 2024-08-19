@@ -10,6 +10,7 @@ in their lives, humans create and invent  different kinds of machinery as a tool
 lives, and the computer is one of those inventions that try to attempt in helping humans.
 
 
+
 2.What are the essential parts of computer?
 
 *Central Processing Unit (CPU)- It is the human brain of the computer. Its functions is to process problems and break 
@@ -30,26 +31,31 @@ this device this makes the computer always feel fresh and  because of this, it m
 errors or any disfunctions and is ready to accept new and more data stored. But the downside of this it is only
 temporary.
 
+
 *Cooling fan- When a computer is being used it produces heat in the hardware, but sometimes the computer would
 overheat that it would be in critical condition if to continue to be sued. Thankfully there is a cooling fan
 is there to help to maintain the computer's heat, the fan will help the computer stay in stable use and can stay
 functional for the user to used. But the cooling fan only has limited power and it would not be able enough to
 cool down the computer's heat itself.
 
+
 *Microchip- it is a small electronic system chip, that is composed of transistors, resistors, and capacitors
 where the resistors are in charge of manipluating electric flow in the transistors, the transistors are 
 ones that functions as an on and off switch of the microchip, and ther capacitor saves and relases. Its functions 
 is to be the computer processor for logic or to process computer memory similar to how RAM acts.
+
 
 *Keyboard- it is a board with buttons to press that is set up with a group of letters, numbers, symbols, and functions, 
 displayed on the computer. when you push a button on a specific letter, number, symbol, and function it will
 follow the command and it would show the effects and result on the computer. They are one of the important
 components of a computer as this is a way for people to communicate with the computer itself.
 
+
 *Power supply- it is a system that supplies some parts of the computer with the correct amount of power for it 
 to function. The way it works is that it takes power from a source like a power outlet, and then turn it into 
 direct current power. With a stable power supply the computer would not be able to have any malfunctions
 or any errors when being currently used.
+
 
 *Hard drive- it is a disk that is responsible for storing and retrieving data and information, with the use
 of magnetic disks it is able to help to store data in order for it to not be lost. In most computers it is
@@ -62,12 +68,15 @@ Computers have come so far in evolving and has become one of the most useful and
 generations, and it would not come this far if it was not for the people who help contribute in the industry 
 itself. here are 5 notable software and hardware developers.
 
+
 *Software developers*
+
 I.Linus Torvads- Known as the founding father of the  Linux Operating System. Enrolled at the University of 
 Helsinki and studied C programming classes. He created Linux Operating System because he needed a new programming system for his 
 MS-DOS-driven PC at that time, he wanted to create a similar Unix operating system, with his programming experience 
 from when he was in college, he was able to make it possible and then share it to the world and he has know become 
 one of the most famous software developers in the world.
+
 
 II.Dennis Ritchie- He was known to be the father of C programming language. Studied at Harvard as an undergraduate 
 of physics and a doctoral degree in applied mathematics. This all happened in the early days when the Dennis was 
@@ -76,12 +85,14 @@ that turned B into the famously known C programming in 1972. Unix components wer
 slowly turned into C programming language,. And because of this, C programming became one of the most important and 
 useful programs to have ever existed.
 
+
 III.James Gosling- the person who made the Java programming language. He has a BS in computer science and graduated 
 from the University of Calgary. the java programming language started in 1991 as a project as Gosling tries to 
 create a new programming language with a few of his colleagues that aimed towards the technology trends of digital 
 divergence in TVs, computers, telephones, set-top boxes, and other embedded systems. Java is know mostlty used in 
 many different devices and applications such as desktop computing, scientific studies, enterprise applications, 
 web servers, embedded systems, and mobile devices and is widely used in computer science education.
+
 
 IV.Ada Lovelace- She is an english mathematician and a writer and she was the very first computer programmer 
 according to history, she was the reason as to why computer coding thrive and has open doors and opportunities 
@@ -90,6 +101,7 @@ to function with mathematical languages, but Lovelace was able to discover and i
 can be programmed other than just using mathematical languages, and so that is how she revolutionized the coding 
 language itself.
 
+
 V.Bjarne Stroustrup- He was the man who develop making the c++ program language. He created this language for users to 
 more accessibility with creating very advanced coding to focus on more than the hardware required. With the use of the 
 c programming language he tried to enhance the language itself and it resulted into the creation of c++ we know today. 
@@ -97,6 +109,7 @@ He created the c++ programming when he was doing work for his Ph.D. thesis in Be
 
 
 *Hardware developers*
+
 I.Charles Babbage- the man who invented computers, he was the man that revolutionzed technology itself, and has became
 one of the most used machinery in our modern day. He is a mathematician and for the most part, only thought calculus 
 functions. Around that time Babbage invented a machine that can difference machine where it does mathematical tables
@@ -105,10 +118,12 @@ Analytical engine, it had very similar functions to the computer we know today. 
 that time and sadly his invention showed only results he did not want. Although Babbage's Analytical engine did not 
 came true, George Scheutz was able to adapt his invention and make come to reality.
 
+
 II.Georg Scheutz- He was the man that was able to make a the first workable computer, something that Charles Babbage 
 tried to create. He was the man that also invented the first printing calculator. It is a machine that is able to
 perform mathematical differencial tasks. The reason for this invention was that he was inspired by Charles Babbage's
 contributions and decided to follow his footsteps.
+
 
 III.Nathaniel Baldwin- Nathaniel was an engineer and is the man that invented the headphones, when Baldwin first made
 the invention, it was nothing but a fun concept to him, he made it so he can listen purely to music, but he was not
@@ -123,15 +138,17 @@ teaching times he one day invented a functioning cathode-ray direction finder or
 he used it, as an example to how cathode ray tube technology work. Because of his amazing invention of the 
 cathode-ray tube (CRT), he was able to make an invention that can show digital images with the help of technology.
 
+
 V.Alexander Graham Bell- Alexander was credited as the creator of the telephone. Alexander was homeschooled througout
 his life, but was able to attend the University of Edinburgh.  Although there are many that says that there are 
 other people who have contributed to the creation of the telephone, he was able to defend his credentials to the
 invention of the telephone and has made a company called Bell Telephone Company in 1877.
 
 
-
 4.Cite you reference/s (APA/IEEE)
+
 References:
+
 Margaret R. (2024, Jan 29). What is a Computer? Everything You Need To Know. Techopedia. https://www.techopedia.com/definition/4607/computer
 
 Anonymous. (2022, Oct 6). 5 Most Important Components of a Computer. hp.com. https://www.hp.com/my-en/shop/tech-takes/post/most-important-computer-components
