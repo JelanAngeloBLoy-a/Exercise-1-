@@ -136,6 +136,7 @@ tried to create. He was the man that also invented the first printing calculator
 perform mathematical differencial tasks. The reason for this invention was that he was inspired by Charles Babbage's
 contributions and decided to follow his footsteps.
 
+![image](https://github.com/user-attachments/assets/f86e18d0-10a2-4a3d-8787-0b05ad988854)
 
 III.Nathaniel Baldwin- Nathaniel was an engineer and is the man that invented the headphones, when Baldwin first made
 the invention, it was nothing but a fun concept to him, he made it so he can listen purely to music, but he was not
@@ -144,18 +145,22 @@ time was only handmade in his kitchen and was only made with cheap equipment he 
 use, but because of this small fun concept this helped  revolutionized technology itself without headphones we 
 would not be able to enjoy our lives listening to music privately.
 
+![image](https://github.com/user-attachments/assets/4943b77f-c2a5-4be6-82f8-cc052968aa99)
+
 IV.Karl Ferdinand Braun- He was considered the father of computer monitors. He became very interested with math, science 
 and electricity. Karl went to the University of Strasbourg in 1895 and is a physics professor there, during his
 teaching times he one day invented a functioning cathode-ray direction finder or oscilloscope, with this invention
 he used it, as an example to how cathode ray tube technology work. Because of his amazing invention of the 
 cathode-ray tube (CRT), he was able to make an invention that can show digital images with the help of technology.
 
+![image](https://github.com/user-attachments/assets/7484b97c-f788-4c75-a276-b3afb570b7fc)
 
-V.Alexander Graham Bell- Alexander was credited as the creator of the telephone. Alexander was homeschooled througout
+Alexander Graham Bell- Alexander was credited as the creator of the telephone. Alexander was homeschooled througout
 his life, but was able to attend the University of Edinburgh.  Although there are many that says that there are 
 other people who have contributed to the creation of the telephone, he was able to defend his credentials to the
 invention of the telephone and has made a company called Bell Telephone Company in 1877.
 
+![image](https://github.com/user-attachments/assets/77065062-4bb5-4783-8e4d-653d2da28ac8)
 
 4.Cite you reference/s (APA/IEEE)
 
@@ -218,3 +223,13 @@ Anonymous. (n. d.). James Gosling. nighthacks.com.https://nighthacks.com/jag/bio
 Anonymous (2024, Jul 12) Ada Lovelace | Biography, Computer, & Facts | Britannica. britannica.com. https://www.britannica.com/biography/Ada-Lovelace
 
 Anonymous (n.d.).Bjarne Stroustrup's Homepage. stroustrup.com.https://www.stroustrup.com/
+
+Anonymous (2024, Jul 23). Charles Babbage. britannica.com.https://www.britannica.com/biography/Charles-Babbage
+
+Merzbach U. (1977). Georg Scheutz and the first printing calculator. semanticsholar.com .https://www.semanticscholar.org/paper/Georg-Scheutz-and-the-first-printing-calculator.-Merzbach/9c5f4d188b4892ccaa570fc3bc5a7c17a4f70872
+
+Anonymous (n.d.). Welcome to the historic Baldwin Radio Factory. baldwinradio.com .https://www.baldwinradiofactory.com/history.html
+
+Anonymous (2019, Jun 6). Karl Ferdinand Braun - Linda Hall Library. lindahall.org. https://www.lindahall.org/about/news/scientist-of-the-day/karl-ferdinand-braun/
+
+Anonymous (2024, Jul 29) .Alexander Graham Bell. britannica.com. https://www.britannica.com/biography/Alexander-Graham-Bell
