@@ -1,6 +1,7 @@
 # Exercise-1-
 
 1.What is Computer?
+
 ![Uploading image.png…]()
 
 It is a machine that is designed and supported with both hardware and software systems to do specific tasks to/ help 
