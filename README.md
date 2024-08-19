@@ -25,6 +25,7 @@ together in order for the computer to be whole. The Motherboard can come in diff
 that each Motherbaord can make have different design on the computer system itself. Like different circuit 
 designs, different wire connections, etc.
 
+![image](https://github.com/user-attachments/assets/495c08fc-b869-4b11-9b7e-20971db4b78d)
 
 *Random Access Memory (RAM)- It is the device that is able to store data and information. It is able to make the
 computer stay relevant and updated at all times. This helps the computer to always remember its functions. With 
@@ -52,6 +53,8 @@ follow the command and it would show the effects and result on the computer. The
 components of a computer as this is a way for people to communicate with the computer itself.
 
 
+
+
 *Power supply- it is a system that supplies some parts of the computer with the correct amount of power for it 
 to function. The way it works is that it takes power from a source like a power outlet, and then turn it into 
 direct current power. With a stable power supply the computer would not be able to have any malfunctions
@@ -62,6 +65,8 @@ or any errors when being currently used.
 of magnetic disks it is able to help to store data in order for it to not be lost. In most computers it is
 stored deep in the computer casing. With the hard drive it able to perform tasks such as storing the 
 operating system, software, and user data for the computer to function well.
+
+
 
 
 3. Who are the notable inventors of hardware and software? Cite (5) software developers and (5) hardware developers.
@@ -179,3 +184,5 @@ Anonymous. (2024, Apr 25). Alexander Graham Bell: Telephone & Inventions. histor
 Bellis M. (2024, May 24). Who Invented the Microchip. thoughtco.com.https://www.thoughtco.com/what-is-a-microchip-1991410
 
 Mehran C. (2023, Jan 18). What are the 7 Components of a Computer?. medium.com. https://medium.com/@chaudharymehran2002/what-are-the-7components-of-a-computer-4e2cc938bd7f#:~:text=perform%20various%20functions.-,These%20components%20include%20the%20central%20processing%20unit%20(CPU)%2C%20memory,devices%20(monitor%20and%20speakers).
+
+Pottenger M. W. et al. (2024, Jul 4). computer. britannica.com. https://www.britannica.com/technology/computer
