@@ -18,8 +18,7 @@ lives, and the computer is one of those inventions that try to attempt in helpin
 down information and also do commands to make actions to do normal computer tasks for the user. Modern CPUs nowadays
 are more advanced which makes systems perform faster without abusing the computer itself.
 
-
-
+![image](https://github.com/user-attachments/assets/a317e070-2284-42e9-8dab-484c5682aa5a)
 
 *Motherboard- it is the one of the most important thing in a computer hardware, is the motherboard. The Motherboard
 is the element of the computer hardware that holds every hardware together in one place, it helps piece things 
@@ -37,7 +36,6 @@ temporary.
 
 ![image](https://github.com/user-attachments/assets/a5aca98d-4d64-4b9e-a90c-b8f43b892dd5)
 
-
 *Cooling fan- When a computer is being used it produces heat in the hardware, but sometimes the computer would
 overheat that it would be in critical condition if to continue to be sued. Thankfully there is a cooling fan
 is there to help to maintain the computer's heat, the fan will help the computer stay in stable use and can stay
@@ -46,33 +44,33 @@ cool down the computer's heat itself.
 
 ![image](https://github.com/user-attachments/assets/a935c9e0-c420-45ae-be35-3ab57f17fe5c)
 
-
 *Microchip- it is a small electronic system chip, that is composed of transistors, resistors, and capacitors
 where the resistors are in charge of manipluating electric flow in the transistors, the transistors are 
 ones that functions as an on and off switch of the microchip, and ther capacitor saves and relases. Its functions 
 is to be the computer processor for logic or to process computer memory similar to how RAM acts.
 
+![image](https://github.com/user-attachments/assets/c12cc1ff-2750-403b-9642-160413c8b072)
 
 *Keyboard- it is a board with buttons to press that is set up with a group of letters, numbers, symbols, and functions, 
 displayed on the computer. when you push a button on a specific letter, number, symbol, and function it will
 follow the command and it would show the effects and result on the computer. They are one of the important
 components of a computer as this is a way for people to communicate with the computer itself.
 
-
+![image](https://github.com/user-attachments/assets/998b96a1-bf76-4f47-817a-be1ea7245382)
 
 *Power supply- it is a system that supplies some parts of the computer with the correct amount of power for it 
 to function. The way it works is that it takes power from a source like a power outlet, and then turn it into 
 direct current power. With a stable power supply the computer would not be able to have any malfunctions
 or any errors when being currently used.
 
+![image](https://github.com/user-attachments/assets/d5c841d2-6208-4834-a643-2e3a9a3fcfc1)
 
 *Hard drive- it is a disk that is responsible for storing and retrieving data and information, with the use
 of magnetic disks it is able to help to store data in order for it to not be lost. In most computers it is
 stored deep in the computer casing. With the hard drive it able to perform tasks such as storing the 
 operating system, software, and user data for the computer to function well.
 
-
-
+![image](https://github.com/user-attachments/assets/509ec77d-fb82-4e9c-848c-3290911436f8)
 
 3. Who are the notable inventors of hardware and software? Cite (5) software developers and (5) hardware developers.
 Computers have come so far in evolving and has become one of the most useful and important things in our modern 
@@ -83,11 +81,9 @@ itself. here are 5 notable software and hardware developers.
 *Software developers*
 
 I.Linus Torvads- Known as the founding father of the  Linux Operating System. Enrolled at the University of 
-Helsinki and studied C programming classes. He created Linux Operating System because he needed a new programming system for his 
-MS-DOS-driven PC at that time, he wanted to create a similar Unix operating system, with his programming experience 
-from when he was in college, he was able to make it possible and then share it to the world and he has know become 
-one of the most famous software developers in the world.
+Helsinki and studied C programming classes. He created Linux Operating System because he needed a new programming system for his MS-DOS-driven PC at that time, he wanted to create a similar Unix operating system, with his programming experience from when he was in college, he was able to make it possible and then share it to the world and he has know become one of the most famous software developers in the world.
 
+![image](https://github.com/user-attachments/assets/eac75c87-4fea-40c8-9e2b-1bf0f678e0b5)
 
 II.Dennis Ritchie- He was known to be the father of C programming language. Studied at Harvard as an undergraduate 
 of physics and a doctoral degree in applied mathematics. This all happened in the early days when the Dennis was 
@@ -96,6 +92,7 @@ that turned B into the famously known C programming in 1972. Unix components wer
 slowly turned into C programming language,. And because of this, C programming became one of the most important and 
 useful programs to have ever existed.
 
+![image](https://github.com/user-attachments/assets/5fb43505-0759-4e63-8149-166d7026201a)
 
 III.James Gosling- the person who made the Java programming language. He has a BS in computer science and graduated 
 from the University of Calgary. the java programming language started in 1991 as a project as Gosling tries to 
@@ -190,10 +187,11 @@ Bellis M. (2024, May 24). Who Invented the Microchip. thoughtco.com.https://www.
 
 Mehran C. (2023, Jan 18). What are the 7 Components of a Computer?. medium.com. https://medium.com/@chaudharymehran2002/what-are-the-7components-of-a-computer-4e2cc938bd7f#:~:text=perform%20various%20functions.-,These%20components%20include%20the%20central%20processing%20unit%20(CPU)%2C%20memory,devices%20(monitor%20and%20speakers).
 
+Images sources
 
 Pottenger M. W. et al. (2024, Jul 4). computer. britannica.com. https://www.britannica.com/technology/computer
 
-
+Bouroque B. & Grey J. (2024, Aug 9). Want a Better PC? Try Building Your Own. https://www.wired.com/story/how-to-build-a-pc/
 
 Anonymous (2022, Mar 9). Computer Motherboard and its Components. medium.com. https://medium.com/@mitteam2021/computer-motherboard-and-its-components-8606f10dc08f
 
@@ -201,3 +199,12 @@ Anonymous (2023, Sep 12). RAM. computerhope.com. https://www.computerhope.com/ja
 
 Galvez C. (2019, Sep 19). How to choose the best CPU cooler for you. newegg.com. https://www.newegg.com/insider/how-to-choose-the-right-cpu-cooler-pc-radiator-for-you/
 
+Farren M. D. (2024, Jul 29). Microchip subsidy sleight-of-hand. thehill.com. https://thehill.com/opinion/finance/3579653-microchip-subsidy-sleight-of-hand/
+
+Ravensrcraft E. (2024, Jul 22) The Best Keyboards for Work and Play. wired.com. https://www.wired.com/gallery/best-keyboards/
+
+Chacos B. & Chiappeta M. (2021, Apr 7). How to choose the best PC power. supply.pcworld.com.https://www.pcworld.com/article/456490/how-to-pick-the-best-pc-power-supply.html
+
+Anonymous. (2024, Aug 14). Linus Torvalds. britannica.com. https://www.britannica.com/biography/Linus-Torvalds
+
+Anonymous. (2012, Sep 6). Honoring the life of Dennis Ritchie, UNIX co-creator and father of C. digitalnewsasia. https://www.digitalnewsasia.com/digital-economy/honoring-the-life-of-dennis-ritchie-unix-co-creator-and-father-of-c
