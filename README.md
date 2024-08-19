@@ -19,6 +19,8 @@ down information and also do commands to make actions to do normal computer task
 are more advanced which makes systems perform faster without abusing the computer itself.
 
 
+
+
 *Motherboard- it is the one of the most important thing in a computer hardware, is the motherboard. The Motherboard
 is the element of the computer hardware that holds every hardware together in one place, it helps piece things 
 together in order for the computer to be whole. The Motherboard can come in different varieties meaning 
@@ -33,12 +35,16 @@ this device this makes the computer always feel fresh and  because of this, it m
 errors or any disfunctions and is ready to accept new and more data stored. But the downside of this it is only
 temporary.
 
+![image](https://github.com/user-attachments/assets/a5aca98d-4d64-4b9e-a90c-b8f43b892dd5)
+
 
 *Cooling fan- When a computer is being used it produces heat in the hardware, but sometimes the computer would
 overheat that it would be in critical condition if to continue to be sued. Thankfully there is a cooling fan
 is there to help to maintain the computer's heat, the fan will help the computer stay in stable use and can stay
 functional for the user to used. But the cooling fan only has limited power and it would not be able enough to
 cool down the computer's heat itself.
+
+![image](https://github.com/user-attachments/assets/a935c9e0-c420-45ae-be35-3ab57f17fe5c)
 
 
 *Microchip- it is a small electronic system chip, that is composed of transistors, resistors, and capacitors
@@ -51,7 +57,6 @@ is to be the computer processor for logic or to process computer memory similar 
 displayed on the computer. when you push a button on a specific letter, number, symbol, and function it will
 follow the command and it would show the effects and result on the computer. They are one of the important
 components of a computer as this is a way for people to communicate with the computer itself.
-
 
 
 
@@ -185,4 +190,14 @@ Bellis M. (2024, May 24). Who Invented the Microchip. thoughtco.com.https://www.
 
 Mehran C. (2023, Jan 18). What are the 7 Components of a Computer?. medium.com. https://medium.com/@chaudharymehran2002/what-are-the-7components-of-a-computer-4e2cc938bd7f#:~:text=perform%20various%20functions.-,These%20components%20include%20the%20central%20processing%20unit%20(CPU)%2C%20memory,devices%20(monitor%20and%20speakers).
 
+
 Pottenger M. W. et al. (2024, Jul 4). computer. britannica.com. https://www.britannica.com/technology/computer
+
+
+
+Anonymous (2022, Mar 9). Computer Motherboard and its Components. medium.com. https://medium.com/@mitteam2021/computer-motherboard-and-its-components-8606f10dc08f
+
+Anonymous (2023, Sep 12). RAM. computerhope.com. https://www.computerhope.com/jargon/r/ram.htm
+
+Galvez C. (2019, Sep 19). How to choose the best CPU cooler for you. newegg.com. https://www.newegg.com/insider/how-to-choose-the-right-cpu-cooler-pc-radiator-for-you/
+
