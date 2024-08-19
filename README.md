@@ -2,7 +2,7 @@
 
 1.What is Computer?
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/e4546288-b383-468c-bb9d-460e4d2bfdea)
 
 It is a machine that is designed and supported with both hardware and software systems to do specific tasks to/ help 
 serve the user's needs. The computer processes information that is requested by the user and carries them out to
