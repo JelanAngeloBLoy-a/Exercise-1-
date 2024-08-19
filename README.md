@@ -9,7 +9,7 @@ in their lives, humans create and invent  different kinds of machinery as a tool
 lives, and the computer is one of those inventions that try to attempt in helping humans.
 
 
-2.What are the essential parts of computer
+2.What are the essential parts of computer?
 *Central Processing Unit (CPU)- It is the human brain of the computer. Its functions is to process problems and break 
 down information and also do commands to make actions to do normal computer tasks for the user. Modern CPUs nowadays
 are more advanced which makes systems perform faster without abusing the computer itself.
