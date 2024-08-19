@@ -1,6 +1,7 @@
 # Exercise-1-
 
 1.What is Computer?
+
 It is a machine that is designed and supported with both hardware and software systems to do specific tasks to/ help 
 serve the user's needs. The computer processes information that is requested by the user and carries them out to
 do what the user  has commandeds to ask, depending on what computer systems is under, it is able to perform 
@@ -10,6 +11,7 @@ lives, and the computer is one of those inventions that try to attempt in helpin
 
 
 2.What are the essential parts of computer?
+
 *Central Processing Unit (CPU)- It is the human brain of the computer. Its functions is to process problems and break 
 down information and also do commands to make actions to do normal computer tasks for the user. Modern CPUs nowadays
 are more advanced which makes systems perform faster without abusing the computer itself.
