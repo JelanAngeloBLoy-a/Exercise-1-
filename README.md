@@ -1,6 +1,7 @@
 # Exercise-1-
 
 1.What is Computer?
+![Uploading image.png…]()
 
 It is a machine that is designed and supported with both hardware and software systems to do specific tasks to/ help 
 serve the user's needs. The computer processes information that is requested by the user and carries them out to
@@ -8,7 +9,6 @@ do what the user  has commandeds to ask, depending on what computer systems is u
 simple tasks request to harder and complex commands. The computer is a machine programmed to help and assists humans
 in their lives, humans create and invent  different kinds of machinery as a tool to help them out in their daily 
 lives, and the computer is one of those inventions that try to attempt in helping humans.
-
 
 
 2.What are the essential parts of computer?
