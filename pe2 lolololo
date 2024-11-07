@@ -13,7 +13,6 @@ int main()
 	cout<<"Insert personal details:"<<endl;  
 	cout<<"     "<<endl;
 	
-	 cin.ignore();  // To clear the buffer before calling getline()
 	cout<<"First Name (No spaces please):";
 	getline(cin,Firstname);
 	cout<<"Middle Name (No spaces please):";
@@ -63,7 +62,6 @@ int main()
     cout<<"Press D to change Restart"<<endl;
     cin>>option2;
     
-     cin.ignore();
     switch(option2){
     	
     case 'A':
