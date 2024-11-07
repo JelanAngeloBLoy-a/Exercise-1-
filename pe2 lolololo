@@ -103,7 +103,7 @@ int main()
 		// Change Everything Back
 	cout<<"Insert personal details:"<<endl;  
 	cout<<"     "<<endl;
-	 cin.ignore();  // To clear the buffer before calling getline()
+	 
 	cout<<"First Name (No spaces please):";
 	getline(cin,Firstname);
 	cout<<"Middle Name (No spaces please):";
