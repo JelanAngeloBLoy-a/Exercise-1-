@@ -1,0 +1,142 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+string InputName()
+{
+	string Firstname, Middlename, Lastname;
+	// Insert name 
+	cout<<"Insert personal details:"<<endl;  
+	cout<<"     "<<endl;
+	cout << " WARNING: DO NOT USE SPACES IN YOUR NAME!" << endl;
+	cout << " ex. input: (Firstname: JelanAngelo)" << endl;
+	cout<<"First Name :";
+    cin>>Firstname;
+	cout<<"Middle Name :";
+	 cin>>Middlename;
+	cout<<"Last Name :";
+	 cin>>Lastname;
+	 
+	 return Firstname, Middlename, Lastname;
+}
+
+    int Age()
+{    // age insert
+    int age;
+	cout<<"Age:";
+	cin>> age;
+	
+	return age;
+}
+	
+	double PhysicalDetails ()
+	{
+		double height, weight;
+	cout<<"       "<<endl;
+	cout<<"Input Physicial details in Feet(ft):"<<endl;
+	cout<<"Height:";
+	cin>> height;
+	cout<<"Weight:";
+	cin>> weight;
+	return height, weight;
+	}
+	
+	int RestingHeartRate ()
+	{
+	int RHR;
+	// Resting Heart rate
+    cout<<"                   "<<endl;
+	cout<<"Resting Heart Rate:";
+	cin>> RHR;
+	return 0;
+	}
+
+
+int main()
+{
+
+	int age, RHR, MHR, FullAge;
+	string name, FullName;
+	double height, weight, highTHR, moderateTHR, intensity, intensity1, intensity2;
+	char option, option2;
+	string Firstname, Middlename, Lastname;
+	
+		// maximum hear rate calculations
+	MHR=200-age;
+    cout<<"                   "<<endl;
+	cout<<"Your Maximum Heart Rate:"<<MHR;
+	cout<<"       "<<endl;	
+    
+    // Selecting the percentage of moderate and high intensity
+	cout<<"select the percentage of intensity for moderate intensity (70-80%):"<<endl;
+	cin>>intensity1;
+	cout<<"select the percentage of intensity for moderate intensity (80-90%):"<<endl;
+	cin>>intensity2;
+	
+	// Conversion of intensity to percentage
+	intensity1/=100;
+	intensity2/=100;
+	
+	// Calculating Karvonen Formula 
+	moderateTHR= ((MHR-RHR)*intensity1) + RHR;
+	highTHR=((MHR-RHR)*intensity2) + RHR;
+	cout<<"                   "<<endl;
+	 
+	// Display of  targeted heart rate
+	cout<<"your Target Heart Rate Training zone for moderate to high intensity, should be: "<<endl;
+	cout<<moderateTHR<<"-"<<highTHR<<endl;
+     
+     
+    // Correction and making sure if the process is correct
+	cout<<"                   "<<endl;
+	cout<<"Are the inputted information correct? Insert (Y/N)";
+	cin>>option;
+	
+	
+	if (option=='Y'|| option=='y'){
+	cout<<" Let us continue";
+	cout<<"                   "<<endl;	
+    }
+    
+    else if(option=='N'|| option=='n'){
+    cout<<"Choose what you want to change"<<endl;
+    cout<<"Press A to change name and age"<<endl;
+    cout<<"Press B to  age"<<endl;
+    cout<<"Press C to change Physical details"<<endl;
+    cout<<"Press D to change name and age"<<endl;
+    
+    cin>>option2;
+}
+
+    switch(option2){
+    
+
+    case 'A':
+	FullName=InputName();
+	break;
+   
+    case 'B'
+    FullAge=age();
+	
+	case 'C':
+
+	break;
+	
+	case 'D':
+		// Resting Heart rate
+    break;
+	
+	
+	// Selecting the percentage of moderate and high intensity
+	cout<<"select the percentage of intensity for moderate intensity (70-80%):"<<endl;
+	cin>>intensity1;
+	cout<<"select the percentage of intensity for moderate intensity (80-90%):"<<endl;
+	cin>>intensity2;
+	break;
+	
+	
+	
+}
+	return 0;
+}
