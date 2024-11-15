@@ -3,6 +3,41 @@
 #include <cctype>
 using namespace std;
 
+void StepExercise ()
+{
+
+	string step, exerciseName;
+	bool condition=true;
+	cout<<"Write here your exercise you will to perform.\n";
+	cout<<"----- WARNING NO SPACES PLEASE ex:(BackstretchExercise)-----\n";
+	cout<<"Exercise name:";
+	cin>>exerciseName;
+	
+	cout<<"\n---(Press ENTER key to move to your next step)---\n";
+	cout<<"(Input STOP to end your list)\n";
+	cout<<"\nExercise Steps:\n";
+		cin.ignore();
+		
+    while (condition)
+    {
+     
+		getline (cin,step);	
+    
+    
+    if(step=="stop" || step=="STOP")
+	  {
+	condition=false;
+	 cout<<"\nExiting....\n";
+	 break;
+	  }
+	}
+	cout<<"What type of exercise is that curious?\n";
+	
+	
+}
+
+
+
 bool isValidName(string name) {
     for (int i = 0; i < name.length(); i++) {
         if (!isalpha(name[i]) && name[i] != ' ') {
@@ -84,276 +119,59 @@ void calculateHeartRate(int age, double& moderateTHR, double& highTHR) {
 
 
 void upperBodyWorkout() {
-    int choice;
-    char modification;
+	
+	char choice;
     bool continueWorkout = true;
 
     while (continueWorkout) {
-        cout << "\n--- Upper Body Workout Options ---\n";
-        cout << "1. Back Exercises\n";
-        cout << "2. Arm Exercises\n";
-        cout << "3. Chest Exercises\n";
-        cout << "4. Shoulder Exercises\n";
-        cout << "5. Go Back\n";
-        cout << "Choose (1-5): ";
-        cin >> choice;
-
-        switch (choice) {
-            case 1:
-                cout << "\n--- Back Exercises ---\n";
-                cout << "Monday: Deadlifts, Bent-over Rows\n";
-                cout << "Tuesday: Pull-ups, Lat Pulldowns\n";
-                cout << "Thursday: T-bar Row, Seated Rows\n";
-                cout << "Saturday: Core: Russian Twists\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-            
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 2:
-                cout << "\n--- Arm Exercises ---\n";
-                cout << "Monday: Bicep Curls, Tricep Dips\n";
-                cout << "Wednesday: Hammer Curls, Tricep Extensions\n";
-                cout << "Friday: Close-grip Push-ups, Preacher Curls\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 3:
-                cout << "\n--- Chest Exercises ---\n";
-                cout << "Monday: Bench Press, Chest Fly\n";
-                cout << "Tuesday: Push-ups, Chest Press Machine\n";
-                cout << "Thursday: Incline Dumbbell Press, Pec Deck\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 4:
-                cout << "\n--- Shoulder Exercises ---\n";
-                cout << "Monday: Shoulder Press, Lateral Raises\n";
-                cout << "Wednesday: Front Raises, Arnold Press\n";
-                cout << "Friday: Shrugs, Reverse Fly\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 5:
-                cout << "Going back to workout options\n";
-                continueWorkout = false;
-                break;
-            default:
-                cout << "Invalid choice. Please try again.\n";
-        }
-
-        if (continueWorkout) {
-            cout << "Do you want to choose another workout area (Y/N)? ";
-            char again;
-            cin >> again;
-            if (again == 'N' || again == 'n') {
-                continueWorkout = false;
-            }
-        }
-    }
+        cout << "\n---Upper Body Workout--- \n";
+        StepExercise ();
+    cout<<"Would you like to try out a different body type\n";
+    cout<<"PRESS Y for YES\n";
+    cout<<"PRESS N for YES\n";
+    cin>>choice;
+    
+    if(choice=='Y' || choice=='y')
+    {
+    	cout<< "Exiting this part...";
+    	continueWorkout = false;
+	}
+	
+	else if(choice=='N' || choice=='n')
+    {
+    	cout<< "\nOkay, let us continue\n";
+    	
+	}
+                             }
+    
 }
 
 
 void lowerBodyWorkout() {
-    int choice;
-    char modification;
+   	char choice;
     bool continueWorkout = true;
 
     while (continueWorkout) {
-        cout << "\n--- Lower Body Workout Options ---\n";
-        cout << "1. Leg Exercises\n";
-        cout << "2. Glute Exercises\n";
-        cout << "3. Calf Exercises\n";
-        cout << "4. Go Back\n";
-        cout << "Choose (1-4): ";
-        cin >> choice;
-
-        switch (choice) {
-            case 1:
-                cout << "\n--- Leg Exercises ---\n";
-                cout << "1.Squats, Lunges\n";
-                cout << "2. Leg Press, Step-ups\n";
-                cout << "3. Deadlifts, Leg Extensions\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 2:
-                cout << "\n--- Glute Exercises ---\n";
-                cout << "Monday: Hip Thrusts, Glute Bridges\n";
-                cout << "Tuesday: Bulgarian Split Squats, Lunges\n";
-                cout << "Thursday: Deadlifts, Cable Kickbacks\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p')
-				{
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 3:
-                cout << "\n--- Calf Exercises ---\n";
-                cout << "Monday: Standing Calf Raises\n";
-                cout << "Tuesday: Seated Calf Raises\n";
-                cout << "Thursday: Donkey Calf Raises\n";
-                
-                cout << "\n---Would you like town down the diffuclty of this exercise or---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-            case 4:
-                cout << "Going back to workout options\n";
-                continueWorkout = false;
-                
-                cout << "\n---Would you like to---\n";
-                cout <<" Press (P) for Progression\n";
-                cout <<" Press (R) for Regression\n";
-                cout << "Press (N) if you do not want either\n";
-                cin >> modification;
-                
-                if (modification=='P'|| modification=='p'){
-                	
-				}
-				
-				else if (modification=='R'|| modification=='r')
-				{
-					
-				}
-				else if (modification=='N' || modification=='N')
-				{
-					cout<<"Ok then, let us continue\n";
-				}  
-                break;
-                case 5:
-                cout << "Going back to workout options\n";
-                continueWorkout = false;
-                break;
-            default:
-                cout << "Invalid choice. Please try again.\n";
-                
-        }
-               
-
-        if (continueWorkout) {
-            cout << "Do you want to choose another workout area (Y/N)? ";
-            char again;
-            cin >> again;
-            if (again == 'N' || again == 'n') {
-                continueWorkout = false;
-            }
-        }
-    }
+        cout << "\n---Upper Body Workout--- \n";
+        StepExercise ();
+    cout<<"Would you like to try out a different body type\n";
+    cout<<"PRESS Y for YES\n";
+    cout<<"PRESS N for YES\n";
+    cin>>choice;
+    
+    if(choice=='Y' || choice=='y')
+    {
+    	cout<< "Exiting this part...";
+    	continueWorkout = false;
+	}
+	
+	else if(choice=='N' || choice=='n')
+    {
+    	cout<< "\nOkay, let us continue\n";
+    	
+	}
+    
+}
 }
 
 
