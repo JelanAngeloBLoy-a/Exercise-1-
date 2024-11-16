@@ -12,12 +12,7 @@ void StepExercise ()
 	cout<<"----- WARNING NO SPACES PLEASE ex:(BackstretchExercise)-----\n";
 	cout<<"Exercise name:";
 	cin>>exerciseName;
-	cout<<"Exercise component:\n";
-	cout<<"Cardiovascular endurance\n";
-	cout<<"Muscular Endurance\n";
-	cout<<"Muscular Strength\n";
-	cout<<"Flexibility\n";
-	cout<<"Body Composition\n";
+
 	
 	
 	
@@ -114,11 +109,17 @@ void calculateHeartRate(int age, double& moderateTHR, double& highTHR) {
     {
 	if ((currentTHR>=moderateTHR) && (currentTHR<=highTHR))
   {
-     cout << "Congrats you have reached your target heart rate, keep up the work!/n";
+     cout << "\nTarget heart rate reached\n";
   }
+  
+  else if ((currentTHR>highTHR))
+  {
+     cout << "\nToo high";
+  }
+  
   else 
   {
-     cout << "Your current heart did not reached the targeted heart rate, but lets try harder next time./n";
+     cout << "\nFailed to reach";
 }
 }
 
@@ -188,11 +189,12 @@ int main() {
     char option;
     string date;
     
-    cout<<"Write the date today";
+    cout<<"Date:";
     getline (cin, date);
+    
 
     do {
-        cout << "Enter your name: ";
+        cout << "\nEnter your name: ";
         getline(cin, name);
 
         if (!isValidName(name)) {
