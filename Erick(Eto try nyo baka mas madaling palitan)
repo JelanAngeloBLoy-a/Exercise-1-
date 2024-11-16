@@ -1,0 +1,297 @@
+#include <iostream>
+#include <string>
+#include <cctype>
+using namespace std;
+
+bool isValidName(string name) {
+    for (int i = 0; i < name.length(); i++) {
+        if (!isalpha(name[i]) && name[i] != ' ') {
+            return false;
+        }
+    }
+    return true;
+}
+
+bool isValidAge(int age) {
+    return age >= 18 && age <= 120;
+}
+
+bool isValidHeight(double heightFeet, double heightInches) {
+    return (heightFeet >= 3 && heightFeet <= 8) && (heightInches >= 0 && heightInches < 12);
+}
+
+bool isValidWeight(double weight) {
+    return weight >= 30 && weight <= 500;
+}
+
+bool isValidRestingHeartRate(int restingHeartRate) {
+    return restingHeartRate >= 40 && restingHeartRate <= 180;
+}
+
+void displayDetails(string name, int age, double heightFeet, double heightInches, double weight, int restingHeartRate) {
+    cout << "\n--- Your Details ---" << endl;
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Height: " << heightFeet << " ft " << heightInches << " in" << endl;
+    cout << "Weight: " << weight << " KG" << endl;
+    cout << "Resting Heart Rate: " << restingHeartRate << " bpm" << endl;
+}
+
+bool askForRegularExercise() {
+    string answer;
+    cout << "Do you exercise regularly? (yes/no): ";
+    cin >> answer;
+    return (answer == "yes" || answer == "Yes");
+}
+
+bool askIfBeginner() {
+    string answer;
+    cout << "Are you a beginner? (yes/no): ";
+    cin >> answer;
+    return (answer == "yes" || answer == "Yes");
+}
+
+int calculateTargetHeartRate(int age) {
+    return 220 - age;
+}
+
+void showIntensityRange(int targetHeartRate, string intensity) {
+    int low = targetHeartRate * 0.50;
+    int moderate = targetHeartRate * 0.60;
+    int high = targetHeartRate * 0.75;
+
+    if (intensity == "Low") {
+        cout << "\nYour target heart rate range for Low intensity is: " << low << " bpm - " << moderate << " bpm\n";
+    } else if (intensity == "Moderate") {
+        cout << "\nYour target heart rate range for Moderate intensity is: " << moderate << " bpm - " << high << " bpm\n";
+    } else if (intensity == "High") {
+        cout << "\nYour target heart rate range for High intensity is: " << high << " bpm - " << targetHeartRate * 0.85 << " bpm\n";
+    } else {
+        cout << "Invalid intensity selection.\n";
+    }
+}
+
+string getIntensity(int targetHeartRate) {
+    int low = targetHeartRate * 0.50;
+    int moderate = targetHeartRate * 0.60;
+    int high = targetHeartRate * 0.75;
+
+    cout << "\nSelect Intensity Level (Low/Moderate/High):\n";
+    cout << "Low (50% - 60% of target heart rate): " << low << " bpm - " << moderate << " bpm\n";
+    cout << "Moderate (60% - 75% of target heart rate): " << moderate << " bpm - " << high << " bpm\n";
+    cout << "High (75% - 85% of target heart rate): " << high << " bpm - " << targetHeartRate * 0.85 << " bpm\n";
+
+    string intensity;
+    cin >> intensity;
+    if (intensity == "Low" || intensity == "low") {
+        return "Low";
+    } else if (intensity == "Moderate" || intensity == "moderate") {
+        return "Moderate";
+    } else if (intensity == "High" || intensity == "high") {
+        return "High";
+    } else {
+        cout << "Invalid intensity, defaulting to Moderate.\n";
+        return "Moderate";
+    }
+}
+
+void beginnerWorkout() {
+    cout << "\n--- Beginner Workout Plan ---\n";
+    cout << "1. *Warm-up:* Light cardio like jogging in place for 5 minutes.\n";
+    cout << "2. *Bodyweight Squats:* 10-15 repetitions, 3 sets.\n";
+    cout << "3. *Push-ups (modified or against a wall):* 10-15 repetitions, 3 sets.\n";
+    cout << "4. *Lunges:* 10-12 repetitions per leg, 3 sets.\n";
+    cout << "5. *Plank:* Hold for 30 seconds, 3 sets.\n";
+    cout << "6. *Cool-down:* Stretch major muscle groups for 5 minutes.\n";
+}
+
+void upperBodyWorkout(string intensity) {
+    int choice;
+    while (true) {
+        cout << "\n--- Upper Body Workout Options (No Equipment) ---\n";
+        cout << "1. Core \n";
+        cout << "2. Shoulders \n";
+        cout << "3. Chest \n";
+        cout << "4. Triceps \n";
+        cout << "5. Back \n";
+        cout << "6. Add Custom Exercises\n";
+        cout << "7. Go Back\n";
+        cout << "Choose (1-7): ";
+        cin >> choice;
+        cin.ignore();
+
+        switch (choice) {
+            case 1:
+                cout << "\n--- Core Exercises ---\n";
+                cout << "1. Plank (Regression: Knee Plank)\n";
+                break;
+            case 2:
+                cout << "\n--- Shoulder Exercises ---\n";
+                cout << "1. Shoulder Taps (Regression: Wall Push-ups)\n";
+                break;
+            case 3:
+                cout << "\n--- Chest Exercises ---\n";
+                cout << "1. Push-ups (Regression: Knee Push-ups)\n";
+                break;
+            case 4:
+                cout << "\n--- Tricep Exercises ---\n";
+                cout << "1. Tricep Dips (Regression: Bench Dips)\n";
+                break;
+            case 5:
+                cout << "\n--- Back Exercises ---\n";
+                cout << "1. Superman (Regression: Reverse Snow Angels)\n";
+                break;
+            case 6: {
+                string customExercise;
+                cout << "Enter your custom exercise (type 'stop' to end): ";
+                cin.ignore();
+                while (true) {
+                    getline(cin, customExercise);
+                    if (customExercise == "stop" || customExercise == "Stop") {
+                        break;
+                    }
+                    cout << "Custom Exercise: " << customExercise << endl;
+                    cout << "Enter another exercise or type 'stop' to end: ";
+                }
+                break;
+            }
+            case 7:
+                return;
+            default:
+                cout << "Invalid choice! Try again.\n";
+                break;
+        }
+    }
+}
+
+void lowerBodyWorkout(string intensity) {
+    int choice;
+    while (true) {
+        cout << "\n--- Lower Body Workout Options (No Equipment) ---\n";
+        cout << "1. Squats (Regression: Wall Squats)\n";
+        cout << "2. Lunges (Regression: Assisted Lunges)\n";
+        cout << "3. Glute Bridges (Regression: Heel Touch Glute Bridges)\n";
+        cout << "4. Step-ups (using a bench) (Regression: Assisted Step-ups)\n";
+        cout << "5. Calf Raises (Regression: Seated Calf Raises)\n";
+        cout << "6. Add Custom Exercises\n";
+        cout << "7. Go Back\n";
+        cout << "Choose (1-7): ";
+        cin >> choice;
+        cin.ignore();
+
+        switch (choice) {
+            case 1:
+                cout << "\n--- Squat Exercises ---\n";
+                break;
+            case 2:
+                cout << "\n--- Lunge Exercises ---\n";
+                break;
+            case 3:
+                cout << "\n--- Glute Bridge Exercises ---\n";
+                break;
+            case 4:
+                cout << "\n--- Step-up Exercises ---\n";
+                break;
+            case 5:
+                cout << "\n--- Calf Raise Exercises ---\n";
+                break;
+            case 6: {
+                string customExercise;
+                cout << "Enter your custom exercise (type 'stop' to end): ";
+                cin.ignore();
+                while (true) {
+                    getline(cin, customExercise);
+                    if (customExercise == "stop" || customExercise == "Stop") {
+                        break;
+                    }
+                    cout << "Custom Exercise: " << customExercise << endl;
+                    cout << "Enter another exercise or type 'stop' to end: ";
+                }
+                break;
+            }
+            case 7:
+                return;
+            default:
+                cout << "Invalid choice! Try again.\n";
+                break;
+        }
+    }
+}
+
+int main() {
+    string name;
+    int age;
+    double heightFeet, heightInches, weight;
+    int restingHeartRate;
+
+    cout << "Enter your name: ";
+    getline(cin, name);
+    while (!isValidName(name)) {
+        cout << "Invalid name. Please enter only letters and spaces: ";
+        getline(cin, name);
+    }
+
+    cout << "Enter your age: ";
+    cin >> age;
+    while (!isValidAge(age)) {
+        cout << "Invalid age. Please enter an age between 18 and 120: ";
+        cin >> age;
+    }
+
+    cout << "Enter your height (feet): ";
+    cin >> heightFeet;
+    cout << "Enter your height (inches): ";
+    cin >> heightInches;
+    while (!isValidHeight(heightFeet, heightInches)) {
+        cout << "Invalid height. Please enter a valid height: ";
+        cin >> heightFeet >> heightInches;
+    }
+
+    cout << "Enter your weight (kg): ";
+    cin >> weight;
+    while (!isValidWeight(weight)) {
+        cout << "Invalid weight. Please enter a weight between 30 and 500 kg: ";
+        cin >> weight;
+    }
+
+    cout << "Enter your resting heart rate (bpm): ";
+    cin >> restingHeartRate;
+    while (!isValidRestingHeartRate(restingHeartRate)) {
+        cout << "Invalid resting heart rate. Please enter a valid heart rate (40-180 bpm): ";
+        cin >> restingHeartRate;
+    }
+
+    displayDetails(name, age, heightFeet, heightInches, weight, restingHeartRate);
+
+    bool exercisesRegularly = askForRegularExercise();
+    if (exercisesRegularly) {
+        int targetHeartRate = calculateTargetHeartRate(age);
+        string intensity = getIntensity(targetHeartRate);
+        showIntensityRange(targetHeartRate, intensity);
+        
+        int workoutChoice;
+        while (true) {
+            cout << "\nChoose workout type:\n";
+            cout << "1. Upper Body\n";
+            cout << "2. Lower Body\n";
+            cout << "3. Exit\n";
+            cout << "Choose (1-3): ";
+            cin >> workoutChoice;
+
+            switch (workoutChoice) {
+                case 1:
+                    upperBodyWorkout(intensity);
+                    break;
+                case 2:
+                    lowerBodyWorkout(intensity);
+                    break;
+                case 3:
+                    cout << "Exiting the program.\n";
+                    return 0;
+                default:
+                    cout << "Invalid choice! Try again.\n";
+                    break;
+            }
+        }
+    }
+}
