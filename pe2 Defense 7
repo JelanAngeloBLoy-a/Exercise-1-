@@ -113,7 +113,7 @@ void displayDetails(string name, int age, double heightFeet, double heightInches
 }
 
 
-void calculateHeartRate(int age, double& moderateTHR, double& highTHR) {
+void calculateHeartRate(int age, double& moderateTHR, double& highTHR, ofstream &file) {
     int RHR;
     double intensity1, intensity2;
     int MHR = 220 - age;
@@ -125,7 +125,9 @@ void calculateHeartRate(int age, double& moderateTHR, double& highTHR) {
         cout << "Invalid Resting Heart Rate. Please enter a valid value: ";
         cin >> RHR;
     }
-
+	
+    file << "\nYour RHR: " << RHR;
+    
     do {
         cout << "Enter intensity for moderate exercise (70-80%): ";
         cin >> intensity1;
@@ -148,6 +150,10 @@ void calculateHeartRate(int age, double& moderateTHR, double& highTHR) {
     cout << "Moderate Target Heart Rate: " << moderateTHR << endl;
     cout << "High Target Heart Rate: " << highTHR << endl;
     cout << "\nTarget Heart rate: " << moderateTHR <<"-"<<highTHR<< endl;
+    
+    file << "\nModerate Target Heart Rate: " << moderateTHR << endl;
+    file << "High Target Heart Rate: " << highTHR << endl;
+    file << "\nTarget Heart rate: " << moderateTHR <<"-"<<highTHR<< endl;
     
 }
 
@@ -714,7 +720,7 @@ int main() {
 			system("CLS");
     		textFile << "\n--- Your Details ---" << endl << "Name: " << name << endl << "Age: " << age << endl << "Height: " << heightFeet << " ft " << heightInches << " in" << endl << "Weight: " << weight << " KG" << endl;
 		
-    	    calculateHeartRate(age, moderateTHR, highTHR);
+    	    calculateHeartRate(age, moderateTHR, highTHR, textFile);
 	
     	    int choice;
     	    bool continueChoosing = true;
@@ -808,7 +814,7 @@ int main() {
 			}
     		textFile << "\n--- Your Details ---" << endl << "Name: " << name << endl << "Age: " << age << endl << "Height: " << heightFeet << " ft " << heightInches << " in" << endl << "Weight: " << weight << " KG" << endl;
 		
-    	    calculateHeartRate(age, moderateTHR, highTHR);
+    	    calculateHeartRate(age, moderateTHR, highTHR, textFile);
 	
     	    int choice;
     	    bool continueChoosing = true;
