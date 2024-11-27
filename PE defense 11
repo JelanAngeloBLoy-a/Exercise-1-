@@ -657,12 +657,12 @@ int main() {
 		getline(cin, txt);
 	}
 	
-	textFile.open(txt.c_str());
 	
 	bool willContinue = askContinue();
 	cin.ignore();
 	if(willContinue) {
 		system("CLS");
+	textFile.open(txt.c_str());
 		
     	cout<<"Date: "<<ctime(&now);
 
