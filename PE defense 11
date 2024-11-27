@@ -876,7 +876,6 @@ int main() {
 		}
 		else {
 			system("CLS");
-			cout<<"\nInput a new file please try again\n";
 			cout<<"Thank you for using our program.\n";
 			
 		}
