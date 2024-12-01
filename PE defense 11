@@ -665,7 +665,7 @@ int main() {
 	textFile.open(txt.c_str());
 		
     	cout<<"Date: "<<ctime(&now);
-
+        textFile<<"Date: "<<ctime(&now);
     	
 	
     	do {
