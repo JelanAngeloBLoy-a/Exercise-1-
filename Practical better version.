@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*create a program that will produce an output of sum of 10 numbers less than 5 using for loop*/
+	int num=0, sum=0;
+	
+	for (int i=1;i<=10;i++){
+	    cout<<i<<"."<<"Input number less than 5"<<endl;
+	    cin>>num;
+	    
+	    if(num>=5){
+	        cout<<"Wrong start over again"<<endl;
+	        break;
+	    }
+	    
+	    else{
+	        
+	        sum+=num;
+	    }
+	    
+	}
+	cout<<"sum:"<<sum;
+	
+	return 0;
+}
